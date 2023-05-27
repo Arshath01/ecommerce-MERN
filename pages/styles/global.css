@@ -1,0 +1,133 @@
+/* Banner components */
+body{
+    background-color: rgb(235, 234, 255) !important;
+}
+#banner {
+    background-image: url('https://img.freepik.com/free-photo/3d-illustration-smartphone-with-products-coming-out-screen-online-shopping-e-commerce-concept_58466-14529.jpg?w=826&t=st=1683208657~exp=1683209257~hmac=8b14d20e95ffee552c38912fb391d0c119650a5bfc0d4ec8bd2b9b47ba80190c');
+
+    padding: 30px 30px 30px 10px;
+    background-size: cover;
+    height: 3 00px;
+}
+#banner h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+}
+
+
+
+/* Header component */
+#header {
+    background: transparent;
+    font-weight: 600;
+ 
+}
+#input_wrap{
+    width: 100%;
+}
+#main_input{
+    border: none;
+}
+
+/* Cateogory component */
+#category_details{
+    width: 400px;
+    height: 300px;
+}
+#template_images{
+
+    width: 100%;
+    height: 250px;
+}
+
+#menu_header{
+    display:none;
+}
+
+#redirect_buttons{
+    justify-content: center;
+    background-color: rgb(93, 124, 223);
+}
+/* featured components */
+#featured_product{
+    width: 100%;
+
+ }
+ #featured-wrap{
+    width: 300px;
+ }
+ #images_featured{
+     width: 100%;
+     height: 200px;
+ }
+ #description{
+     min-height: 80px;
+ }
+/* mobile view */
+@media (max-width:716px){
+    /* category component */
+    #header {
+        background: transparent;
+        width: 95%;
+    }
+
+    #input_wrap{
+        width: 100%;
+    }
+    #main_input{
+        border: none;
+    }
+    
+    #banner{
+            height: 30vh;
+            width: 93%;
+        
+    }
+    
+    #ul_header{
+        display:none ;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.95);
+        position: absolute;
+       width: 100%;
+        height: 100vh;
+
+    }
+    #ul_header li{
+        margin: 35px;
+    }
+    
+    #menu_header{
+        display:block;
+    }
+    #close_header{
+        z-index: 1;
+        position: relative;
+        right: 90%;
+    }
+    #featured-wrap{
+        width: 96%;
+        margin: auto;
+    }
+  
+ 
+    
+}
+
+@media (min-width:700px){
+   
+    #ul_header{
+        display: block !important;
+        display: flex !important;
+        color: black !important;
+        gap: 20px !important;
+        flex-direction: row !important;
+    }
+    #ul_header li{
+        padding: 0px 20px;
+    }
+    #banner {
+        height: 300px;
+        background-position: center;
+    }
+    
+}
